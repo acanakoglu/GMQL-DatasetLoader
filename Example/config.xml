@@ -1,0 +1,29 @@
+<config>
+    <username>public</username>
+    <region_root_folder>/home/canakoglu/hadoop_backup/user/public/regions</region_root_folder>
+    <repository_public_data_folder>/home/canakoglu/gmql_repository/data_backup/public</repository_public_data_folder>
+
+
+    <delete_datasets>
+        <dataset_name>HG19_BED_ANNOTATION</dataset_name>
+        <dataset_name>HG19_BED_ANNOTATION_V2</dataset_name>
+        <dataset_name>hello</dataset_name>
+    </delete_datasets>
+
+    <datasets_xml>
+        <!--<dataset_name>HG19_BED_ANNOTATION</dataset_name>-->
+        <dataset>
+            <old_dataset_name>HG19_BED_ANNOTATION_V2</old_dataset_name>
+            <dataset_name>HG19_BED_ANNOTATION</dataset_name>
+        </dataset>
+    </datasets_xml>
+    <datasets_folder>
+        <dataset>
+            <dataset_name>hello</dataset_name>
+            <directory>/home/canakoglu/GMQL-test/to_delete/</directory>
+            <schema>/home/canakoglu/GMQL-test/to_delete/gencode.v19.annotation.gtf.schema</schema>
+        </dataset>
+    </datasets_folder>
+
+
+</config>

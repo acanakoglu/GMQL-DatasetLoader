@@ -1,0 +1,75 @@
+<config>
+    <username>public</username>
+    <region_root_folder>/home/canakoglu/hadoop_backup/user/public/regions</region_root_folder>
+    <repository_public_data_folder>/home/gql_repository/data_backup/public</repository_public_data_folder>
+    <delete_datasets>
+        <!--<dataset_name>HG19_BED_ANNOTATION</dataset_name>-->
+        <!--<dataset_name>HG19_BED_ANNOTATION_V2</dataset_name>-->
+
+        <!--<dataset_name>GRCh38_ENCODE_BROAD</dataset_name>-->
+        <!--<dataset_name>GRCh38_ENCODE_NARROW</dataset_name>-->
+        <!--<dataset_name>HG19_ENCODE_BROAD</dataset_name>-->
+        <!--<dataset_name>HG19_ENCODE_NARROW</dataset_name>-->
+        <dataset_name>HG19_ENCODE_BROAD_NOV_2016</dataset_name>
+    </delete_datasets> |
+
+
+    <datasets_xml>
+        <!--<dataset>-->
+            <!--<old_dataset_name>HG19_BED_ANNOTATION_V2</old_dataset_name>-->
+            <!--<dataset_name>HG19_BED_ANNOTATION</dataset_name>-->
+        <!--</dataset>-->
+        <!--<dataset>-->
+            <!--<old_dataset_name>HG19_ENCODE_BED_V2</old_dataset_name>-->
+            <!--<dataset_name>HG19_ENCODE_BED</dataset_name>-->
+        <!--</dataset>-->
+        <!--<dataset>-->
+            <!--<old_dataset_name>HG19_ENCODE_BEDGRAPH_V2</old_dataset_name>-->
+            <!--<dataset_name>HG19_ENCODE_BEDGRAPH</dataset_name>-->
+        <!--</dataset>-->
+        <!--<dataset>-->
+            <!--<old_dataset_name>HG19_ENCODE_BROAD_V2</old_dataset_name>-->
+            <!--<dataset_name>HG19_ENCODE_BROAD</dataset_name>-->
+        <!--</dataset>-->
+        <!--<dataset>-->
+            <!--<old_dataset_name>HG19_ENCODE_CHIPSEQ_BEDGRAPH_V2</old_dataset_name>-->
+            <!--<dataset_name>HG19_ENCODE_CHIPSEQ_BEDGRAPH</dataset_name>-->
+        <!--</dataset>-->
+        <!--<dataset>-->
+            <!--<old_dataset_name>HG19_ENCODE_NARROW_V2</old_dataset_name>-->
+            <!--<dataset_name>HG19_ENCODE_NARROW</dataset_name>-->
+        <!--</dataset>-->
+        <!--<dataset>-->
+            <!--<old_dataset_name>MM9_ENCODE_BROAD_V2</old_dataset_name>-->
+            <!--<dataset_name>MM9_ENCODE_BROAD</dataset_name>-->
+        <!--</dataset>-->
+
+        <!--<dataset>-->
+            <!--<old_dataset_name>MM9_ENCODE_NARROW_V2</old_dataset_name>-->
+            <!--<dataset_name>MM9_ENCODE_NARROW</dataset_name>-->
+        <!--</dataset>-->
+    </datasets_xml>
+    <datasets_folder>
+        <!--<dataset>-->
+            <!--<dataset_name>GRCh38_ENCODE_BROAD_NOV_2016</dataset_name>-->
+            <!--<directory>/home/perna/nov_2016_encode_tsv/GRCh38_broad_sample</directory>-->
+            <!--<schema>/home/gql_repository/data_backup/public/schema/HG19_ENCODE_BROAD_V2.schema</schema>-->
+        <!--</dataset>-->
+        <dataset>
+            <dataset_name>HG19_ENCODE_BROAD_NOV_2016</dataset_name>
+            <directory>/home/perna/nov_2016_encode_tsv/hg19_broad_sample</directory>
+            <schema>/home/gql_repository/data_backup/public/schema/HG19_ENCODE_BROAD_V2.schema</schema>
+        </dataset>
+
+        <!--<dataset>-->
+            <!--<dataset_name>GRCh38_ENCODE_NARROW_NOV_2016</dataset_name>-->
+            <!--<directory>/home/perna/nov_2016_encode_tsv/GRCh38_narrow_sample</directory>-->
+            <!--<schema>/home/gql_repository/data_backup/public/schema/HG19_ENCODE_NARROW_V2.schema</schema>-->
+        <!--</dataset>-->
+        <!--<dataset>-->
+            <!--<dataset_name>HG19_ENCODE_NARROW_NOV_2016</dataset_name>-->
+            <!--<directory>/home/perna/nov_2016_encode_tsv/hg19_narrow_sample</directory>-->
+            <!--<schema>/home/gql_repository/data_backup/public/schema/HG19_ENCODE_NARROW_V2.schema</schema>-->
+        <!--</dataset>-->
+    </datasets_folder>
+</config>
