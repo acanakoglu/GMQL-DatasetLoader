@@ -4,6 +4,7 @@ import java.io.File
 import java.nio.charset.Charset
 import java.util
 
+import it.polimi.genomics.core.GDMSUserClass
 import it.polimi.genomics.repository.FSRepository.DFSRepository
 import it.polimi.genomics.repository.GMQLSample
 import org.slf4j._
@@ -160,6 +161,7 @@ object Program {
           repo.importDs(
             datasetName,
             username,
+            GDMSUserClass.PUBLIC,
             samples,
             schemaFile)
           logger.info("import for dataset " + datasetName + " completed")
