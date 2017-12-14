@@ -5,6 +5,7 @@ import java.nio.charset.Charset
 import java.util
 
 import it.polimi.genomics.core.GDMSUserClass
+import it.polimi.genomics.manager.ProfilerLauncher
 import it.polimi.genomics.repository.FSRepository.DFSRepository
 import it.polimi.genomics.repository.GMQLSample
 import org.slf4j._
@@ -18,7 +19,7 @@ object Program {
   logger.info(getClass.getResource("/gmql_conf/").getFile)
 
 
-  it.polimi.genomics.repository.Utilities.confFolder = new File("./gmql_conf/").getAbsolutePath//getClass.getResource("/gmql_conf/").getFile
+  it.polimi.genomics.repository.Utilities.confFolder = new File("./gmql_conf/").getAbsolutePath //getClass.getResource("/gmql_conf/").getFile
   it.polimi.genomics.repository.Utilities()
   val repo = new DFSRepository
 
@@ -40,7 +41,6 @@ object Program {
 
     logger.debug("File exists")
     val xmlConfigFile: Elem = XML.loadFile(configFile)
-
 
 
     regionRootFolder = (xmlConfigFile \ "region_root_folder").text
@@ -165,6 +165,9 @@ object Program {
             samples,
             schemaFile)
           logger.info("import for dataset " + datasetName + " completed")
+          ProfilerLauncher.profileDS(username, datasetName)
+          logger.info("profiler for dataset " + datasetName + " completed")
+
         }
         catch {
           case e: Throwable => logger.error("import failed: " + e.getMessage)
@@ -189,7 +192,6 @@ object Program {
   }
 
   def existDataset(datasetName: String) = (false /: repo.listAllDSs(username).asScala.map(_.position)) (_ || _.equals(datasetName))
-
 
 
   def getListOfFiles(dir: String): List[File] = {
