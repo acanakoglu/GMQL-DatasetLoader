@@ -1,0 +1,172 @@
+insideGene.genes.annotation_type	gene
+insideGene.genes.assembly	hg19
+insideGene.genes.name	RefSeqGenes
+insideGene.genes.provider	RefSeq
+insideGene.myDataRaw.DNAse.GlobalJaccardIndex	1.0
+insideGene.myDataRaw.DNAse.ID	881
+insideGene.myDataRaw.DNAse.JaccardIndex	1.0
+insideGene.myDataRaw.DNAse._Region_number	106318
+insideGene.myDataRaw.DNAse._Region_number_cover	106318
+insideGene.myDataRaw.DNAse.cell	ECC-1
+insideGene.myDataRaw.DNAse.cell_description	epithelial cell line derived from an endometrium adenocarcinoma, fetal membranes were collected from women who underwent planned cesarean delivery at term, before labor and without rupture of membranes
+insideGene.myDataRaw.DNAse.cell_karyotype	cancer
+insideGene.myDataRaw.DNAse.cell_lineage	endoderm
+insideGene.myDataRaw.DNAse.cell_orderUrl	http://www.atcc.org/ATCCAdvancedCatalogSearch/ProductDetails/tabid/452/Default.aspx?ATCCNum=CRL-2923&Template=cellBiology
+insideGene.myDataRaw.DNAse.cell_organism	human
+insideGene.myDataRaw.DNAse.cell_protocol	Myers:ECC1_Myers_protocol.pdf
+insideGene.myDataRaw.DNAse.cell_sex	F
+insideGene.myDataRaw.DNAse.cell_tag	ECC1
+insideGene.myDataRaw.DNAse.cell_termId	BTO:0000194
+insideGene.myDataRaw.DNAse.cell_termUrl	http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=BTO&termId=BTO%3A0000194
+insideGene.myDataRaw.DNAse.cell_tier	3
+insideGene.myDataRaw.DNAse.cell_tissue	luminal epithelium
+insideGene.myDataRaw.DNAse.cell_type	Cell Line
+insideGene.myDataRaw.DNAse.cell_vendorId	CRL-2923
+insideGene.myDataRaw.DNAse.cell_vendorName	ATCC
+insideGene.myDataRaw.DNAse.composite	wgEncodeOpenChromDnase
+insideGene.myDataRaw.DNAse.dataType	DnaseSeq
+insideGene.myDataRaw.DNAse.dataType_dataGroup	Open Chromatin
+insideGene.myDataRaw.DNAse.dataType_description	DNaseI HS Sequencing
+insideGene.myDataRaw.DNAse.dataType_label	DNase-seq
+insideGene.myDataRaw.DNAse.dataType_tag	DNASESEQ
+insideGene.myDataRaw.DNAse.dataType_type	dataType
+insideGene.myDataRaw.DNAse.dataVersion	ENCODE Mar 2012 Freeze
+insideGene.myDataRaw.DNAse.dateSubmitted	2012-01-31
+insideGene.myDataRaw.DNAse.dateUnrestricted	2012-10-31
+insideGene.myDataRaw.DNAse.dccAccession	wgEncodeEH002555
+insideGene.myDataRaw.DNAse.geoSampleAccession	GSM1008597
+insideGene.myDataRaw.DNAse.grant	Crawford
+insideGene.myDataRaw.DNAse.grant_description	Crawford
+insideGene.myDataRaw.DNAse.grant_grantInst	Duke
+insideGene.myDataRaw.DNAse.grant_projectName	OpenChrom
+insideGene.myDataRaw.DNAse.grant_tag	CRAWFORD
+insideGene.myDataRaw.DNAse.grant_type	grant
+insideGene.myDataRaw.DNAse.lab	Duke
+insideGene.myDataRaw.DNAse.labVersion	p-value cutoff: 0.05
+insideGene.myDataRaw.DNAse.lab_description	Crawford - Duke University
+insideGene.myDataRaw.DNAse.lab_grantPi	Crawford
+insideGene.myDataRaw.DNAse.lab_labInst	Duke University
+insideGene.myDataRaw.DNAse.lab_labPi	Crawford
+insideGene.myDataRaw.DNAse.lab_labPiFull	Greg Crawford
+insideGene.myDataRaw.DNAse.lab_label	Crawford - Duke University
+insideGene.myDataRaw.DNAse.lab_organism	human
+insideGene.myDataRaw.DNAse.lab_tag	DUKE
+insideGene.myDataRaw.DNAse.lab_type	lab
+insideGene.myDataRaw.DNAse.md5sum	e119c0c162bba3b552d2b3e412b90aca
+insideGene.myDataRaw.DNAse.project	wgEncode
+insideGene.myDataRaw.DNAse.size	1.9M
+insideGene.myDataRaw.DNAse.subId	5387
+insideGene.myDataRaw.DNAse.tableName	wgEncodeOpenChromDnaseEcc1Dm002p1hPk
+insideGene.myDataRaw.DNAse.treatment	DMSO_0.02pct
+insideGene.myDataRaw.DNAse.treatment_description	1 h with 0.02% Dimethyl sufloxide (DMSO) (Myers)
+insideGene.myDataRaw.DNAse.treatment_tag	DM002P1H
+insideGene.myDataRaw.DNAse.treatment_type	treatment
+insideGene.myDataRaw.DNAse.type	narrowPeak
+insideGene.myDataRaw.DNAse.url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeOpenChromDnase/wgEncodeOpenChromDnaseEcc1Dm002p1hPk.narrowPeak.gz
+insideGene.myDataRaw.DNAse.view	Peaks
+insideGene.myDataRaw.DNAse.view_description	Regions of enriched signal in experiment
+insideGene.myDataRaw.DNAse.view_label	Peaks
+insideGene.myDataRaw.DNAse.view_tag	PKS
+insideGene.myDataRaw.DNAse.view_type	view
+insideGene.myDataRaw.HM_TF.GlobalJaccardIndex	1.0
+insideGene.myDataRaw.HM_TF.ID	556
+insideGene.myDataRaw.HM_TF.ID	557
+insideGene.myDataRaw.HM_TF.JaccardIndex	1.0
+insideGene.myDataRaw.HM_TF._Region_number	10308
+insideGene.myDataRaw.HM_TF._Region_number	13413
+insideGene.myDataRaw.HM_TF._Region_number_cover	13732
+insideGene.myDataRaw.HM_TF.antibody	ZBTB7A_(SC-34508)
+insideGene.myDataRaw.HM_TF.antibody_antibodyDescription	Goat polyclonal IgG, epitope mapping at the C-terminus of LRF of human origin. Antibody Target: ZBTB7A
+insideGene.myDataRaw.HM_TF.antibody_lab	Myers
+insideGene.myDataRaw.HM_TF.antibody_label	ZBTB7A (sc-34508)
+insideGene.myDataRaw.HM_TF.antibody_lots	H2406
+insideGene.myDataRaw.HM_TF.antibody_orderUrl	http://www.scbt.com/datasheet-34508-lrf-c-18-antibody.html
+insideGene.myDataRaw.HM_TF.antibody_tag	ZBTB7A
+insideGene.myDataRaw.HM_TF.antibody_target	ZBTB7A
+insideGene.myDataRaw.HM_TF.antibody_targetClass	TFSS
+insideGene.myDataRaw.HM_TF.antibody_targetDescription	Plays a key role in the instruction of early lymphoid progenitors to develop into B lineage by repressing T-cell instructive Notch signals (By similarity).
+insideGene.myDataRaw.HM_TF.antibody_targetId	GeneCard:ZBTB7A
+insideGene.myDataRaw.HM_TF.antibody_targetUrl	http://www.genecards.org/cgi-bin/carddisp.pl?gene=ZBTB7A
+insideGene.myDataRaw.HM_TF.antibody_type	Antibody
+insideGene.myDataRaw.HM_TF.antibody_validation	Human_-_ZBTB7A_SC-34508(Immunoprecipitation-Western_blot,IP-MassSpec):human_ZBTB7A_SC-34508_validation_Myers.pdf
+insideGene.myDataRaw.HM_TF.antibody_vendorId	sc-34508
+insideGene.myDataRaw.HM_TF.antibody_vendorName	Santa Cruz Biotechnology
+insideGene.myDataRaw.HM_TF.cell	ECC-1
+insideGene.myDataRaw.HM_TF.cell_description	epithelial cell line derived from an endometrium adenocarcinoma, fetal membranes were collected from women who underwent planned cesarean delivery at term, before labor and without rupture of membranes
+insideGene.myDataRaw.HM_TF.cell_karyotype	cancer
+insideGene.myDataRaw.HM_TF.cell_lineage	endoderm
+insideGene.myDataRaw.HM_TF.cell_orderUrl	http://www.atcc.org/ATCCAdvancedCatalogSearch/ProductDetails/tabid/452/Default.aspx?ATCCNum=CRL-2923&Template=cellBiology
+insideGene.myDataRaw.HM_TF.cell_organism	human
+insideGene.myDataRaw.HM_TF.cell_protocol	Myers:ECC1_Myers_protocol.pdf
+insideGene.myDataRaw.HM_TF.cell_sex	F
+insideGene.myDataRaw.HM_TF.cell_tag	ECC1
+insideGene.myDataRaw.HM_TF.cell_termId	BTO:0000194
+insideGene.myDataRaw.HM_TF.cell_termUrl	http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=BTO&termId=BTO%3A0000194
+insideGene.myDataRaw.HM_TF.cell_tier	3
+insideGene.myDataRaw.HM_TF.cell_tissue	luminal epithelium
+insideGene.myDataRaw.HM_TF.cell_type	Cell Line
+insideGene.myDataRaw.HM_TF.cell_vendorId	CRL-2923
+insideGene.myDataRaw.HM_TF.cell_vendorName	ATCC
+insideGene.myDataRaw.HM_TF.composite	wgEncodeHaibTfbs
+insideGene.myDataRaw.HM_TF.controlId	SL13506
+insideGene.myDataRaw.HM_TF.dataType	ChipSeq
+insideGene.myDataRaw.HM_TF.dataType_dataGroup	TFBS & Histones
+insideGene.myDataRaw.HM_TF.dataType_description	Chromatin IP Sequencing
+insideGene.myDataRaw.HM_TF.dataType_label	ChIP-seq
+insideGene.myDataRaw.HM_TF.dataType_tag	CHIPSEQ
+insideGene.myDataRaw.HM_TF.dataType_type	dataType
+insideGene.myDataRaw.HM_TF.dataVersion	ENCODE Jul 2012 Freeze
+insideGene.myDataRaw.HM_TF.dateSubmitted	2012-07-19
+insideGene.myDataRaw.HM_TF.dateUnrestricted	2013-04-19
+insideGene.myDataRaw.HM_TF.dccAccession	wgEncodeEH003241
+insideGene.myDataRaw.HM_TF.geoSampleAccession	GSM1010752
+insideGene.myDataRaw.HM_TF.grant	Myers
+insideGene.myDataRaw.HM_TF.grant_description	Myers
+insideGene.myDataRaw.HM_TF.grant_grantInst	Hudson Alpha Institute of Biotechnology
+insideGene.myDataRaw.HM_TF.grant_projectName	HAIB
+insideGene.myDataRaw.HM_TF.grant_tag	MYERS
+insideGene.myDataRaw.HM_TF.grant_type	grant
+insideGene.myDataRaw.HM_TF.lab	HudsonAlpha
+insideGene.myDataRaw.HM_TF.labExpId	SL13275
+insideGene.myDataRaw.HM_TF.labExpId	SL14586
+insideGene.myDataRaw.HM_TF.lab_description	Myers - Hudson Alpha Institute for Biotechnology
+insideGene.myDataRaw.HM_TF.lab_grantPi	Myers
+insideGene.myDataRaw.HM_TF.lab_labInst	Hudson Alpha Institute for Biotechnology
+insideGene.myDataRaw.HM_TF.lab_labPi	Myers
+insideGene.myDataRaw.HM_TF.lab_labPiFull	Richard Myers
+insideGene.myDataRaw.HM_TF.lab_label	Myers - Hudson Alpha
+insideGene.myDataRaw.HM_TF.lab_organism	human
+insideGene.myDataRaw.HM_TF.lab_tag	HAIB
+insideGene.myDataRaw.HM_TF.lab_type	lab
+insideGene.myDataRaw.HM_TF.md5sum	9eb7a5695c71f1a9672c3f7674ab1097
+insideGene.myDataRaw.HM_TF.md5sum	c3a9a790e5b847bc0b60fa1a5111da08
+insideGene.myDataRaw.HM_TF.project	wgEncode
+insideGene.myDataRaw.HM_TF.protocol	v042211.1
+insideGene.myDataRaw.HM_TF.protocol_description	Faster ChIP protocol & AMpure XP size selection for ChIP-seq (Myers)
+insideGene.myDataRaw.HM_TF.protocol_label	ChIP AMpure XP
+insideGene.myDataRaw.HM_TF.protocol_tag	V0422111
+insideGene.myDataRaw.HM_TF.protocol_type	protocol
+insideGene.myDataRaw.HM_TF.replicate	1
+insideGene.myDataRaw.HM_TF.replicate	2
+insideGene.myDataRaw.HM_TF.setType	exp
+insideGene.myDataRaw.HM_TF.size	165K
+insideGene.myDataRaw.HM_TF.size	213K
+insideGene.myDataRaw.HM_TF.softwareVersion	MACS
+insideGene.myDataRaw.HM_TF.subId	7282
+insideGene.myDataRaw.HM_TF.tableName	wgEncodeHaibTfbsEcc1Zbtb7aV0422111PkRep1
+insideGene.myDataRaw.HM_TF.tableName	wgEncodeHaibTfbsEcc1Zbtb7aV0422111PkRep2
+insideGene.myDataRaw.HM_TF.treatment	None
+insideGene.myDataRaw.HM_TF.treatment_description	No special treatment or protocol applies
+insideGene.myDataRaw.HM_TF.treatment_label	No treatment or prot
+insideGene.myDataRaw.HM_TF.treatment_tag	NONE
+insideGene.myDataRaw.HM_TF.treatment_type	control
+insideGene.myDataRaw.HM_TF.type	broadPeak
+insideGene.myDataRaw.HM_TF.url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeHaibTfbs/wgEncodeHaibTfbsEcc1Zbtb7aV0422111PkRep1.broadPeak.gz
+insideGene.myDataRaw.HM_TF.url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeHaibTfbs/wgEncodeHaibTfbsEcc1Zbtb7aV0422111PkRep2.broadPeak.gz
+insideGene.myDataRaw.HM_TF.view	Peaks
+insideGene.myDataRaw.HM_TF.view_description	Regions of enriched signal in experiment
+insideGene.myDataRaw.HM_TF.view_label	Peaks
+insideGene.myDataRaw.HM_TF.view_tag	PKS
+insideGene.myDataRaw.HM_TF.view_type	view
+insideGene.myDataRaw._Region_number	13344
+mutations.type	single_base_substitution

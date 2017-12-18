@@ -7,7 +7,8 @@ import java.util
 import it.polimi.genomics.core.GDMSUserClass
 import it.polimi.genomics.manager.ProfilerLauncher
 import it.polimi.genomics.repository.FSRepository.DFSRepository
-import it.polimi.genomics.repository.GMQLSample
+import it.polimi.genomics.repository.{GMQLRepository, GMQLSample}
+import org.apache.log4j.{ConsoleAppender, Level, PatternLayout}
 import org.slf4j._
 
 import scala.collection.JavaConverters._
@@ -16,19 +17,39 @@ import scala.xml.{Elem, NodeSeq, XML}
 
 object Program {
   val logger: Logger = LoggerFactory.getLogger(this.getClass)
-  logger.info(getClass.getResource("/gmql_conf/").getFile)
 
 
-  it.polimi.genomics.repository.Utilities.confFolder = new File("./gmql_conf/").getAbsolutePath //getClass.getResource("/gmql_conf/").getFile
-  it.polimi.genomics.repository.Utilities()
-  val repo = new DFSRepository
+  org.apache.log4j.Logger.getRootLogger().getLoggerRepository().resetConfiguration()
+
+  val console = new ConsoleAppender() //create appender
+  //configure the appender
+  val PATTERN = "%d [%p|%c|%C{1}] %m%n"
+  console.setLayout(new PatternLayout(PATTERN))
+  console.setThreshold(Level.ALL)
+  console.activateOptions()
+  //add appender to any Logger (here is root)
+  org.apache.log4j.Logger.getRootLogger().addAppender(console)
+
+  logger.debug("Conf folder: " + new File("./gmql_conf/").getAbsolutePath)
 
 
   var regionRootFolder: String = _
   var repositoryPublicDataFolder: String = _
   var username: String = _
 
+  var repo: GMQLRepository = {
+    it.polimi.genomics.repository.Utilities.confFolder = new File("./gmql_conf/").getAbsolutePath //getClass.getResource("/gmql_conf/").getFile
+    it.polimi.genomics.repository.Utilities()
+    repo = it.polimi.genomics.repository.Utilities().getRepository()
+    repo
+  }
+
   def main(args: Array[String]): Unit = {
+
+
+
+
+
     logger.info("Charset.defaultCharset:" + Charset.defaultCharset)
     //    new RepositoryManagerV2("public").unregisterUser("public")
     //    new RepositoryManagerV2("public").registerUser("public")
@@ -170,7 +191,7 @@ object Program {
 
         }
         catch {
-          case e: Throwable => logger.error("import failed: " + e.getMessage)
+          case e: Throwable => logger.error("import failed: ", e.getMessage)
         }
       else
         logger.warn("Already exists, skipped " + datasetName)
