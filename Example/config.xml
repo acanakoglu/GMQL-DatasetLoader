@@ -1,13 +1,14 @@
 <config>
-    <username>canakoglu</username>
+    <username>public</username>
     <region_root_folder>/home/canakoglu/hadoop_backup/user/public/regions</region_root_folder>
     <repository_public_data_folder>/home/canakoglu/gmql_repository/data_backup/public</repository_public_data_folder>
+    <datasets_folder_root_folder>/Users/canakoglu/GMQL-sources/GMQL-DatasetLoader/</datasets_folder_root_folder>
 
 
     <delete_datasets>
+        <dataset_name>HG19_GENCODE_ANNOTATION_GTF</dataset_name>
+        <dataset_name>HG19_GENCODE_ANNOTATION_GENE_GTF</dataset_name>
         <dataset_name>hello</dataset_name>
-        <!--<dataset_name>HG19_BED_ANNOTATION_V2</dataset_name>-->
-        <!--<dataset_name>hello</dataset_name>-->
     </delete_datasets>
 
     <datasets_xml>
@@ -18,10 +19,20 @@
         <!--</dataset>-->
     </datasets_xml>
     <datasets_folder>
+        <!--<dataset>-->
+            <!--<dataset_name>hello</dataset_name>-->
+            <!--<directory>Example/files</directory>-->
+            <!--<schema>Example/files/schema.xml</schema>-->
+        <!--</dataset>-->
         <dataset>
-            <dataset_name>hello</dataset_name>
-            <directory>/Users/canakoglu/GMQL-sources/GMQL-DatasetLoader/Example/files</directory>
-            <schema>/Users/canakoglu/GMQL-sources/GMQL-DatasetLoader/Example/files/schema.xml</schema>
+            <dataset_name>Example_Dataset_1</dataset_name>
+            <directory>Example/Example_Datasets_2-1-18_mm/Example_Dataset_1/files/</directory>
+            <schema>Example/Example_Datasets_2-1-18_mm/Example_Dataset_1/files/schema.xml</schema>
+        </dataset>
+        <dataset>
+            <dataset_name>Example_Dataset_2</dataset_name>
+            <directory>Example/Example_Datasets_2-1-18_mm/Example_Dataset_2/files/</directory>
+            <schema>Example/Example_Datasets_2-1-18_mm/Example_Dataset_2/files/schema.xml</schema>
         </dataset>
     </datasets_folder>
 

@@ -1,0 +1,5 @@
+chr6	GMQL	Region	100	200	4	.	.	name "."; signal "20"; pvalue "16.8339"; qvalue "-1"; peak "-1";
+chr6	GMQL	Region	300	350	3	.	.	name "."; signal "44"; pvalue "53.555"; qvalue "-1"; peak "-1";
+chr6	GMQL	Region	400	500	5	.	.	name "."; signal "39"; pvalue "45.5516"; qvalue "-1"; peak "-1";
+chr6	GMQL	Region	300	350	3	.	.	name "."; signal "44"; pvalue "63.5"; qvalue "-1"; peak "-1";
+

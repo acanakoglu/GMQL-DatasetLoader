@@ -47,9 +47,6 @@ object Program {
   def main(args: Array[String]): Unit = {
 
 
-
-
-
     logger.info("Charset.defaultCharset:" + Charset.defaultCharset)
     //    new RepositoryManagerV2("public").unregisterUser("public")
     //    new RepositoryManagerV2("public").registerUser("public")
@@ -71,6 +68,15 @@ object Program {
     username = (xmlConfigFile \ "username").text
     logger.info("username: " + username)
 
+    val dfrf = {
+      val temp = (xmlConfigFile \ "datasets_folder_root_folder")
+      if (temp.nonEmpty)
+        Some(temp.text)
+      else
+        None
+    }
+    logger.info("datasets_folder_root_folder: " + dfrf)
+
     val datasetToDeleteNames = xmlConfigFile \ "delete_datasets" \ "dataset_name"
 
     val datasetsXml = xmlConfigFile \ "datasets_xml" \ "dataset"
@@ -78,18 +84,16 @@ object Program {
 
     datasetToDeleteNames.foreach(datasetName => deleteDataset(datasetName.text))
     loadFromDatasetXml(datasetsXml)
-    loadFromDirectory(datasetsFolder)
-
-
+    loadFromDirectory(datasetsFolder, dfrf)
   }
 
-  def loadFromDirectory(datasets: NodeSeq): Unit = {
+  def loadFromDirectory(datasets: NodeSeq, dfrf: Option[String]): Unit = {
     for (a <- datasets) {
       val datasetName = (a \ "dataset_name").text
       logger.info("datasetName: " + datasetName)
-      val directory = (a \ "directory").text
+      val directory = dfrf.getOrElse("") +  (a \ "directory").text
       logger.info("directory: " + directory)
-      val schema = (a \ "schema").text
+      val schema = dfrf.getOrElse("") +  (a \ "schema").text
       logger.info("schema: " + schema)
       if (!new File(schema).exists()) {
         logger.error("schema file doesn't exists: " + schema)

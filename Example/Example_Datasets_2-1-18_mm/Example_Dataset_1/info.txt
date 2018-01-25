@@ -1,0 +1,5 @@
+Average region length	58.27
+Number of regions	30
+Number of samples	7
+Size	0.02 MB
+Upload date	2018/01/04 16:33:24

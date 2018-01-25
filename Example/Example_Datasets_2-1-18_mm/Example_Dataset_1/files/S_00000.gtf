@@ -1,0 +1,11 @@
+chr2	GMQL	Region	100	150	10	.	.	name "."; signal "9"; pvalue "5.27936"; qvalue "-1"; peak "-1";
+chr2	GMQL	Region	200	240	9	.	.	name "."; signal "22"; pvalue "19.6922"; qvalue "-1"; peak "-1";
+chr2	GMQL	Region	400	440	0.9	.	.	name "."; signal "15"; pvalue "15.1452"; qvalue "-1"; peak "-1";
+chr2	GMQL	Region	540	570	0.9	.	.	name "."; signal "15"; pvalue "15.1452"; qvalue "-1"; peak "-1";
+chr4	GMQL	Region	50	100	0.9	+	.	name "."; signal "15"; pvalue "15.1452"; qvalue "-1"; peak "-1";
+chr4	GMQL	Region	150	179	0.9	-	.	name "."; signal "15"; pvalue "15.1452"; qvalue "-1"; peak "-1";
+chr4	GMQL	Region	200	249	0.9	-	.	name "."; signal "15"; pvalue "15.1452"; qvalue "-1"; peak "-1";
+chr5	GMQL	Region	100	200	4	.	.	name "."; signal "15"; pvalue "17.1452"; qvalue "-1"; peak "-1";
+chr5	GMQL	Region	300	340	4	+	.	name "."; signal "15"; pvalue "15.1452"; qvalue "-1"; peak "-1";
+chr5	GMQL	Region	320	340	3	-	.	name "."; signal "15"; pvalue "17.1452"; qvalue "-1"; peak "-1";
+chr5	GMQL	Region	380	420	3	-	.	name "."; signal "15"; pvalue "17.1452"; qvalue "-1"; peak "-1";
