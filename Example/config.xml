@@ -2,8 +2,10 @@
     <username>public</username>
     <region_root_folder>/home/canakoglu/hadoop_backup/user/public/regions</region_root_folder>
     <repository_public_data_folder>/home/canakoglu/gmql_repository/data_backup/public</repository_public_data_folder>
-    <datasets_folder_root_folder>/Users/canakoglu/GMQL-sources/GMQL-DatasetLoader/</datasets_folder_root_folder>
-
+    <datasets_folders>
+        <root_folder>/home/canakoglu/GMQL-sources/GMQL-DatasetLoader</root_folder>
+        <root_folder>/Users/canakoglu/GMQL-sources/GMQL-DatasetLoader/</root_folder>
+    </datasets_folders>
 
     <delete_datasets>
         <dataset_name>HG19_GENCODE_ANNOTATION_GTF</dataset_name>

@@ -12,7 +12,8 @@ import org.apache.log4j.{ConsoleAppender, Level, PatternLayout}
 import org.slf4j._
 
 import scala.collection.JavaConverters._
-import scala.xml.{Elem, NodeSeq, XML}
+import scala.collection.immutable
+import scala.xml.{Elem, Node, NodeSeq, XML}
 
 
 object Program {
@@ -69,11 +70,12 @@ object Program {
     logger.info("username: " + username)
 
     val dfrf = {
-      val temp = (xmlConfigFile \ "datasets_folder_root_folder")
-      if (temp.nonEmpty)
-        Some(temp.text)
-      else
-        None
+      (xmlConfigFile \ "datasets_folders" \ "root_folder").flatMap { el =>
+        if (new File(el.text).exists)
+          Some(el.text)
+        else
+          None
+      }.headOption
     }
     logger.info("datasets_folder_root_folder: " + dfrf)
 
@@ -91,9 +93,9 @@ object Program {
     for (a <- datasets) {
       val datasetName = (a \ "dataset_name").text
       logger.info("datasetName: " + datasetName)
-      val directory = dfrf.getOrElse("") +  (a \ "directory").text
+      val directory = dfrf.getOrElse("") + (a \ "directory").text
       logger.info("directory: " + directory)
-      val schema = dfrf.getOrElse("") +  (a \ "schema").text
+      val schema = dfrf.getOrElse("") + (a \ "schema").text
       logger.info("schema: " + schema)
       if (!new File(schema).exists()) {
         logger.error("schema file doesn't exists: " + schema)
