@@ -193,7 +193,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifestEntries>
-                            <Main-Class>it.polimi.genomics.importer.main.program</Main-Class>
+                            <Main-Class>it.polimi.genomics.importer.main.Program</Main-Class>
                         </manifestEntries>
                     </archive>
                 </configuration>
@@ -215,7 +215,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>it.polimi.genomics.importer.main.program</mainClass>
+                            <mainClass>it.polimi.genomics.importer.main.Program</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
