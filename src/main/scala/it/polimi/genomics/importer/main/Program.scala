@@ -71,9 +71,10 @@ object Program {
 
     val dfrf = {
       (xmlConfigFile \ "datasets_folders" \ "root_folder").flatMap { el =>
-        if (new File(el.text).exists)
+        if (new File(el.text).exists) {
+          print("Possible datasets_folder_root_folder: " + el.text)
           Some(el.text)
-        else
+        } else
           None
       }.headOption
     }
