@@ -51,7 +51,7 @@ object Program {
     //    new RepositoryManagerV2("public").unregisterUser("public")
     //    new RepositoryManagerV2("public").registerUser("public")
 
-    val configFile = new File(args.head)
+    val configFile = new File(args.headOption.getOrElse("Example/config.xml"))
     if (!configFile.exists()) {
       logger.error("file not exists: " + configFile.getAbsolutePath)
       return
