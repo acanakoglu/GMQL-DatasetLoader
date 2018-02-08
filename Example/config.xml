@@ -8,8 +8,9 @@
     </datasets_folders>
 
     <delete_datasets>
-        <!--<dataset_name>HG19_GENCODE_ANNOTATION</dataset_name>-->
-        <!--<dataset_name>HG19_GENCODE_ANNOTATION</dataset_name>-->
+        <dataset_name>HG19_GENCODE_ANNOTATION</dataset_name>
+        <dataset_name>GRCh38_GENCODE_ANNOTATION</dataset_name>
+
         <dataset_name>hello</dataset_name>
     </delete_datasets>
 
