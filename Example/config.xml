@@ -8,8 +8,8 @@
     </datasets_folders>
 
     <delete_datasets>
-        <dataset_name>HG19_GENCODE_ANNOTATION_GTF</dataset_name>
-        <dataset_name>HG19_GENCODE_ANNOTATION_GENE_GTF</dataset_name>
+        <!--<dataset_name>HG19_GENCODE_ANNOTATION</dataset_name>-->
+        <!--<dataset_name>HG19_GENCODE_ANNOTATION</dataset_name>-->
         <dataset_name>hello</dataset_name>
     </delete_datasets>
 
@@ -26,6 +26,7 @@
             <!--<directory>Example/files</directory>-->
             <!--<schema>Example/files/schema.xml</schema>-->
         <!--</dataset>-->
+
         <dataset>
             <dataset_name>Example_Dataset_1</dataset_name>
             <directory>Example/Example_Datasets_2-1-18_mm/Example_Dataset_1/files/</directory>
@@ -35,6 +36,17 @@
             <dataset_name>Example_Dataset_2</dataset_name>
             <directory>Example/Example_Datasets_2-1-18_mm/Example_Dataset_2/files/</directory>
             <schema>Example/Example_Datasets_2-1-18_mm/Example_Dataset_2/files/schema.xml</schema>
+        </dataset>
+
+        <dataset>
+            <dataset_name>GRCh38_GENCODE_ANNOTATION</dataset_name>
+            <directory>Example/GRCh38_GENCODE_ANNOTATION/</directory>
+            <schema>Example/GRCh38_GENCODE_ANNOTATION/schema.xml</schema>
+        </dataset>
+        <dataset>
+            <dataset_name>HG19_GENCODE_ANNOTATION</dataset_name>
+            <directory>Example/HG19_GENCODE_ANNOTATION</directory>
+            <schema>Example/HG19_GENCODE_ANNOTATION/schema.xml</schema>
         </dataset>
     </datasets_folder>
 
