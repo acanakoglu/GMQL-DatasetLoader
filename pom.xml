@@ -11,12 +11,20 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>GMQL-Importer</artifactId>
 
+    <!--<repositories>-->
+    <!--<repository>-->
+    <!--<id>browserid-snapshots</id>-->
+    <!--<name>browserid-snapshots</name>-->
+    <!--<url>https://oss.sonatype.org/content/repositories/snapshots/</url>-->
+    <!--</repository>-->
+    <!--</repositories>-->
+
     <dependencies>
 
         <dependency>
             <groupId>it.polimi.genomics</groupId>
             <artifactId>GMQL-Repository</artifactId>
-            <version>1.0</version>
+            <version>1.0-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <groupId>ch.qos.logback</groupId>
@@ -36,7 +44,7 @@
         <dependency>
             <groupId>it.polimi.genomics</groupId>
             <artifactId>GMQL-SManager</artifactId>
-            <version>2.0</version>
+            <version>1.0-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <groupId>ch.qos.logback</groupId>
