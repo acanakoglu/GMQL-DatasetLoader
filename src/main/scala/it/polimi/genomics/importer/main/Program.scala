@@ -198,7 +198,9 @@ object Program {
 
         }
         catch {
-          case e: Throwable => logger.error("import failed: ", e.getMessage)
+          case e: Throwable =>
+            logger.error("import failed: ", e)
+            logger.error("import failed: ", e.getMessage)
         }
       else
         logger.warn("Already exists, skipped " + datasetName)
