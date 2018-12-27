@@ -5,13 +5,14 @@
     <datasets_folders>
         <root_folder>/home/canakoglu/GMQL-sources/GMQL-DatasetLoader/</root_folder>
         <root_folder>/Users/canakoglu/GMQL-sources/GMQL-DatasetLoader/</root_folder>
+        <root_folder>/home/hduser/gmql_importer</root_folder>
     </datasets_folders>
 
     <delete_datasets>
-        <dataset_name>HG19_GENCODE_ANNOTATION</dataset_name>
-        <dataset_name>GRCh38_GENCODE_ANNOTATION</dataset_name>
+        <dataset_name>HG19_TADs_Dixon</dataset_name>
+        <dataset_name>HG19_TADs_Aiden</dataset_name>
 
-        <dataset_name>hello</dataset_name>
+        <!--<dataset_name>hello</dataset_name>-->
     </delete_datasets>
 
     <datasets_xml>
@@ -29,26 +30,26 @@
         <!--</dataset>-->
 
         <dataset>
-            <dataset_name>Example_Dataset_1</dataset_name>
-            <directory>Example/Example_Datasets_2-1-18_mm/Example_Dataset_1/files/</directory>
-            <schema>Example/Example_Datasets_2-1-18_mm/Example_Dataset_1/files/schema.xml</schema>
+            <dataset_name>HG19_TADs_Aiden</dataset_name>
+            <directory>HG19_TADs_Aiden/Transformations/</directory>
+            <schema>HG19_TADs_Aiden/Transformations/HG19_TADs.schema</schema>
         </dataset>
         <dataset>
-            <dataset_name>Example_Dataset_2</dataset_name>
-            <directory>Example/Example_Datasets_2-1-18_mm/Example_Dataset_2/files/</directory>
-            <schema>Example/Example_Datasets_2-1-18_mm/Example_Dataset_2/files/schema.xml</schema>
+            <dataset_name>HG19_TADs_Dixon</dataset_name>
+            <directory>HG19_TADs_Dixon/Transformations/</directory>
+            <schema>HG19_TADs_Dixon/Transformations/HG19_TADs.schema</schema>
         </dataset>
 
-        <dataset>
-            <dataset_name>GRCh38_GENCODE_ANNOTATION</dataset_name>
-            <directory>Example/GRCh38_GENCODE_ANNOTATION/</directory>
-            <schema>Example/GRCh38_GENCODE_ANNOTATION/schema.xml</schema>
-        </dataset>
-        <dataset>
-            <dataset_name>HG19_GENCODE_ANNOTATION</dataset_name>
-            <directory>Example/HG19_GENCODE_ANNOTATION</directory>
-            <schema>Example/HG19_GENCODE_ANNOTATION/schema.xml</schema>
-        </dataset>
+        <!--<dataset>-->
+            <!--<dataset_name>GRCh38_GENCODE_ANNOTATION</dataset_name>-->
+            <!--<directory>Example/GRCh38_GENCODE_ANNOTATION/</directory>-->
+            <!--<schema>Example/GRCh38_GENCODE_ANNOTATION/schema.xml</schema>-->
+        <!--</dataset>-->
+        <!--<dataset>-->
+            <!--<dataset_name>HG19_GENCODE_ANNOTATION</dataset_name>-->
+            <!--<directory>Example/HG19_GENCODE_ANNOTATION</directory>-->
+            <!--<schema>Example/HG19_GENCODE_ANNOTATION/schema.xml</schema>-->
+        <!--</dataset>-->
     </datasets_folder>
 
 
